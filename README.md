@@ -27,3 +27,12 @@ curl -X POST https://producer-cindylopez.cloud.okteto.net -H "Content-Type: appl
 ```
 
 The consumer service will then pick up the message you posted and [log it in the dashboard](https://cloud.okteto.com).
+
+
+deploy via UI or CLI
+
+okteto up/down
+
+once ready then 
+
+curl -X POST https://producer-kafka-scheung38.cloud.okteto.net -H "Content-Type: application/json" -d '{"message":"hello bagua!"}'
